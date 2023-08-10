@@ -1,0 +1,44 @@
+# Aulão Testes automatizados em JS
+
+- Nessa aulão você vai implementar testes unitarios e testes e2e em um código legado alcançando 100% de code coverage
+
+    - premissas
+        - criar testes para codigo legado
+        - adicionar funcionalidade para um codigo existente
+        - refatorar um codigo existente
+            - alguem pediu para retirar um
+
+    - mentiras (bate papo):
+        - testes automatizados demoram demais
+        - não vale a pena criar testes para uma aplicação que não possui testes
+        - testar no backend é fácil, quero ver testar o frontend
+            - mesmas premissas
+            - pode fazer snapshot testes como alternativa ao e2e da API
+        - meu chefe não me deixa testar
+            - não deveriamos dar essa opção, se você diz que entrega em 4 horas e ja inclui os testes em geral o pessoal de gerenciamento adora não ter retrabalho e ter controle do tempo da entrega. Retrabalho é o que atrasa o gerenciamento e que faz o time perder o respeito
+Caso
+    - Qual o meu método?
+        - começar a implementar Testes Automatizados para tudo que eu entregasse,
+            e nem estou falando de TDD,
+                estou falando de pelo menos validar se a tarefa que entreguei condiz com o que foi pedido
+
+        - Fazer perguntas antes de codar
+            - qual é a entrada?
+            - qual é a saida esperada?
+                - qual o formato que esperam?
+                - o que vão fazer com esse dado?
+
+            - JAMAIS perguntar: qual o tempo estimado, perguntar: qual é a prioridade
+
+    - Mas erick, o projeto não tem testes,  o que eu faço?
+        - a melhor coisa, é fazer um teste só para o que voce entregar
+            - começar com testes e2e - as vezes o projeto não está bem desacoplado então sofre muito
+            - instale um programa de code cov e verifique quais partes do código não estão testadas
+            - agora que voce entendeu, criar um teste unitário
+
+
+demo
+    - exportar o handler
+    - adicionar o
+        if (process.env.NODE_ENV !== 'test')
+
